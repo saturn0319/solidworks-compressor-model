@@ -1,0 +1,29 @@
+name: 模型或文档问题
+description: 反馈打开异常、文件缺失、模型与图纸差异或文档错误
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: 软件版本
+      description: 例如 SolidWorks 2020 SP1；纯文档问题可填“不适用”
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: 文件与配置
+      description: 出现问题的文件名称和装配配置
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 问题与复现步骤
+      description: 描述预期、实际表现、提示文字和操作步骤；涉及图纸时注明页码
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图或补充信息
+      description: 可粘贴截图；请去除无关个人信息和本地路径

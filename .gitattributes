@@ -1,0 +1,28 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+LICENSE text eol=lf
+
+*.SLDPRT binary
+*.sldprt binary
+*.SLDASM binary
+*.sldasm binary
+*.SLDDRW binary
+*.slddrw binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.step binary
+*.STEP binary
+*.stp binary
+*.STP binary
+*.x_t binary
+*.x_b binary
+*.dwg binary

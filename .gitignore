@@ -1,0 +1,45 @@
+# SOLIDWORKS temporary, backup and recovery files
+~$*
+*.sldbak
+*.SLDBAK
+*.sldrecover
+*.SLDRECOVER
+*.swbak
+*.SWBAK
+*.sldprt.bak
+*.sldasm.bak
+*.slddrw.bak
+*.SLDPRT.bak
+*.SLDASM.bak
+*.SLDDRW.bak
+*.tmp
+*.temp
+*.log
+*~
+
+# Local inspection data and packaged copies
+/tmp/
+/dist/
+/output/
+*.private.json
+*.private.txt
+
+# OS, editors, Python and local credentials
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local assistant configuration
+.codex/
+.agents/

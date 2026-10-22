@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "primary_assembly": "装配体1.SLDASM",
+  "configuration": "默认",
+  "checked_with": {
+    "product": "SOLIDWORKS",
+    "version": "2020 SP1",
+    "api_revision": "28.1.0"
+  },
+  "expected_counts": {
+    "part_files": 34,
+    "assembly_files": 1,
+    "reference_pdfs": 1,
+    "component_instances": 78
+  },
+  "assembly_dependencies": [
+    "hexagon head bolts gb.sldprt",
+    "hexagon nuts grade c gb.sldprt",
+    "hexagon socket head cap screws gb.sldprt",
+    "parallel pins unhardening steel gb.sldprt",
+    "plain washers-n series-grade a gb.sldprt",
+    "冷却器.SLDPRT",
+    "出气盖.SLDPRT",
+    "垫片1.SLDPRT",
+    "垫片2.SLDPRT",
+    "密封圈.SLDPRT",
+    "带轮.SLDPRT",
+    "底板.SLDPRT",
+    "底板垫片.SLDPRT",
+    "拨叉.SLDPRT",
+    "挡圈.SLDPRT",
+    "控制杆.SLDPRT",
+    "曲轴.SLDPRT",
+    "气管接头.SLDPRT",
+    "气路卡套.SLDPRT",
+    "法兰.SLDPRT",
+    "法兰垫圈.SLDPRT",
+    "法兰垫片.SLDPRT",
+    "泵体.SLDPRT",
+    "活塞.SLDPRT",
+    "转销.SLDPRT",
+    "轴塞.SLDPRT",
+    "轴套.SLDPRT",
+    "进气盖.SLDPRT",
+    "进气盖垫片.SLDPRT",
+    "锁紧套.SLDPRT",
+    "锁紧螺钉.SLDPRT",
+    "阀板.SLDPRT",
+    "阀盖.SLDPRT",
+    "顶盖.SLDPRT"
+  ],
+  "files": [
+    {
+      "path": "2024年河南省工业软件创新大赛压缩机.pdf",
+      "kind": "reference",
+      "provenance": "initial_workspace",
+      "size_bytes": 1288090,
+      "sha256": "58f4dab15e34f37582180fa22cda955cb7e93d1715f4bc95376b4bd0fc1ae2a5"
+    },
+    {
+      "path": "hexagon head bolts gb.sldprt",
+      "kind": "part",
+      "provenance": "recovered_assembly_dependency",
+      "size_bytes": 194506,
+      "sha256": "7a905d4d6fcb8326c43c5e443946742402bba6112ec59fb8e5761685d7b36cbe"
+    },
+    {
+      "path": "hexagon nuts grade c gb.sldprt",
+      "kind": "part",
+      "provenance": "recovered_assembly_dependency",
+      "size_bytes": 350932,
+      "sha256": "ea9f6dbab4c82adf8c064811f28b60bcd4e580b61bb99334c08ded00c4d9e731"
+    },
+    {
+      "path": "hexagon socket head cap screws gb.sldprt",
+      "kind": "part",
+      "provenance": "recovered_assembly_dependency",
+      "size_bytes": 273099,
+      "sha256": "9501ca38ff68c99e8456f9d01fba88359b174da0909d3050fcefc206e8c3a3bf"
+    },
+    {
+      "path": "parallel pins unhardening steel gb.sldprt",
+      "kind": "part",
+      "provenance": "recovered_assembly_dependency",
+      "size_bytes": 144616,
+      "sha256": "c2d71fe62ef8d483c8c9890b7d436ff487cf4ff924d8aab63c73417515facc93"
+    },
+    {
+      "path": "plain washers-n series-grade a gb.sldprt",
+      "kind": "part",
+      "provenance": "recovered_assembly_dependency",
+      "size_bytes": 105865,
+      "sha256": "415808d26c603907c6003c3dae24c8a5a8924f2e275f56f1fa35559d03997e42"
+    },
+    {
+      "path": "冷却器.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 138085,
+      "sha256": "bb82223074e67427a6d447cfb12ec21bcaccd6ecda274dd186fd1f6679c28ada",
+      "drawing_item": 11,
+      "drawing_page": 3
+    },
+    {
+      "path": "出气盖.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 278439,
+      "sha256": "9c9f1410244829ad6d111e18ef6659808e35c8c9c118f7ce3ca381deed99201e",
+      "drawing_item": 16,
+      "drawing_page": 4
+    },
+    {
+      "path": "垫片1.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 83473,
+      "sha256": "002144d68c34547ee076b535c0c7857affa2ee4e23e885a38dccbdc50151f995",
+      "drawing_item": 34,
+      "drawing_page": 5
+    },
+    {
+      "path": "垫片2.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 81684,
+      "sha256": "f0abf67ad8fa7f5956694e03f186ebaf10753eb3e01db0c67a2ec7ab1d4ebdf1",
+      "drawing_item": 38,
+      "drawing_page": 5
+    },
+    {
+      "path": "密封圈.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 93904,
+      "sha256": "ff03e3217557006139f3bd64007702f758b1906e97db9d8b3140c195edabd39c",
+      "drawing_item": 9,
+      "drawing_page": 5
+    },
+    {
+      "path": "带轮.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 166467,
+      "sha256": "741e223ca3b13afa0d03596410578c3d3bee7fdb8d8f885ec41992583c844fa5",
+      "drawing_item": 3,
+      "drawing_page": 3
+    },
+    {
+      "path": "底板.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 143218,
+      "sha256": "24610ae9e6e122737d4956b5342d890a97207e07eeff2859c8f4d34dde5629b0",
+      "drawing_item": 27,
+      "drawing_page": 4
+    },
+    {
+      "path": "底板垫片.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 116893,
+      "sha256": "7dfa1b4783d3e7a83c42104ab370a9f8ff3c29e4c7a417570f722a65b19389cb",
+      "drawing_item": 26,
+      "drawing_page": 7
+    },
+    {
+      "path": "拨叉.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 227724,
+      "sha256": "5e57ee4042c5c1ec622fa8cb4f8702e9c9bcf82f0e80c67b68c4b5e535b32ad0",
+      "drawing_item": 21,
+      "drawing_page": 6
+    },
+    {
+      "path": "挡圈.SLDPRT",
+      "kind": "part",
+      "provenance": "recovered_assembly_dependency",
+      "size_bytes": 176696,
+      "sha256": "0a758300f8c75153288d2f3b9bb7273643b7b85ab7a5ce2697b6c5d1736a7264"
+    },
+    {
+      "path": "控制杆.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 596349,
+      "sha256": "70afe71bfa24b6d76675f2e7b3c388def35c854013be361ebeb1d5dd26f2a7b2",
+      "drawing_item": 17,
+      "drawing_page": 6
+    },
+    {
+      "path": "曲轴.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 264025,
+      "sha256": "2be86147a1c46e654ac8be457355ec18372079ba23846bcc97d77ddc02b39520",
+      "drawing_item": 4,
+      "drawing_page": 3
+    },
+    {
+      "path": "气管接头.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 554235,
+      "sha256": "c589a9d81bc49e1786fb930443cd215197f8b18f58c0b06c75e02d800b324869",
+      "drawing_item": 33,
+      "drawing_page": 5
+    },
+    {
+      "path": "气路卡套.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 431585,
+      "sha256": "e04d92ce01243eff133243403fc071aa8c05265f6557c90a8b4ec9f0c9c7c55e",
+      "drawing_item": 39,
+      "drawing_page": 5
+    },
+    {
+      "path": "法兰.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 172977,
+      "sha256": "df5126da4a621ffcfced109fc7a3dacf68babbb34ad96e3acf8834824b2d2fd4",
+      "drawing_item": 10,
+      "drawing_page": 7
+    },
+    {
+      "path": "法兰垫圈.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 102690,
+      "sha256": "443d9529c0a4e609cdfd7b6ae00e4b24036481ee5b4e48002347485b1b237858",
+      "drawing_item": 1,
+      "drawing_page": 7
+    },
+    {
+      "path": "法兰垫片.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 102807,
+      "sha256": "2da575b7727afcedc0f68b7f260c9d3e8fb1472b016d05bd02fd458201b3c5e4",
+      "drawing_item": 12,
+      "drawing_page": 6
+    },
+    {
+      "path": "泵体.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 582528,
+      "sha256": "8d063b83a81210cbdc6147896c08b81bc9b6fcbfc61691a1bde596ae07f2d100",
+      "drawing_item": 24,
+      "drawing_page": 2
+    },
+    {
+      "path": "活塞.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 105979,
+      "sha256": "8eb88f004fa05a62b2f7656b3db4d528991ed2858272f391cf0d12f25f216292",
+      "drawing_item": 18,
+      "drawing_page": 6
+    },
+    {
+      "path": "装配体1.SLDASM",
+      "kind": "assembly",
+      "provenance": "initial_workspace",
+      "size_bytes": 2367300,
+      "sha256": "a11c6b23728763cb791ef8ed305b1c989f23bd37e119be693028b2dbc11dd5ef"
+    },
+    {
+      "path": "转销.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 108561,
+      "sha256": "adef4f585015e20e107cf85246b0f638fe304a87a6bd5d8f0420649ba9f417ab",
+      "drawing_item": 20,
+      "drawing_page": 6
+    },
+    {
+      "path": "轴塞.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 85493,
+      "sha256": "83c6243448f1614cb68c68fbb580f66c53fa80df67f4926975e4f7f8e020dff7",
+      "drawing_item": 22,
+      "drawing_page": 7
+    },
+    {
+      "path": "轴套.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 94297,
+      "sha256": "8db94c9f90b80f1aef56703b4337d6c3d7825052a586a4ba2d7b0fde096ac8c3",
+      "drawing_item": 8,
+      "drawing_page": 5
+    },
+    {
+      "path": "进气盖.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 236869,
+      "sha256": "f50b20f6eebddb277688191352de91b321c97c02d461a18af68a44fb89c42104",
+      "drawing_item": 36,
+      "drawing_page": 4
+    },
+    {
+      "path": "进气盖垫片.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 90513,
+      "sha256": "fecb929b7e054062b90b07b0a8fc0d9307215218cbc215a0cbf7400ef56c9923",
+      "drawing_item": 35,
+      "drawing_page": 5
+    },
+    {
+      "path": "锁紧套.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 145010,
+      "sha256": "d21d9fab27b13e2dcf9dac0a7567b18306f51cf7bc2a530e80d12baf26a9fe7b",
+      "drawing_item": 30,
+      "drawing_page": 6
+    },
+    {
+      "path": "锁紧螺钉.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 399795,
+      "sha256": "25a9fe76134e75fc7fb7b6c3b0c3f41e56cf7fb84d47821ec17c1888b539c029",
+      "drawing_item": 37,
+      "drawing_page": 5
+    },
+    {
+      "path": "阀板.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 130395,
+      "sha256": "34ff658d062dcf69d4ad4314c36c8183289a2f8279b6a16f10dd457f721b8294",
+      "drawing_item": 14,
+      "drawing_page": 7
+    },
+    {
+      "path": "阀盖.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 139485,
+      "sha256": "7bc3479074908d7ae09e8a54e371bdddf7cfc1b01fb3102c01c80b8cfe778dc6",
+      "drawing_item": 23,
+      "drawing_page": 6
+    },
+    {
+      "path": "顶盖.SLDPRT",
+      "kind": "part",
+      "provenance": "initial_workspace",
+      "size_bytes": 90620,
+      "sha256": "509e4e48c88103da2a3455b4d31a3f7b76b44174466343f131e77ded5e7f1c83",
+      "drawing_item": 7,
+      "drawing_page": 5
+    },
+    {
+      "path": "docs/images/assembly-isometric.png",
+      "kind": "preview",
+      "provenance": "generated_from_assembly",
+      "size_bytes": 883156,
+      "sha256": "4f9a12c56ddc890fc578ec200bb065d1e778155d388a7beb359130e5e9ebdf42"
+    }
+  ]
+}

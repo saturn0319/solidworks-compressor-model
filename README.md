@@ -96,4 +96,3 @@ python scripts/check_repository.py
 比赛图纸和标准件保留各自权利归属，不适用原创部分的版权声明。来源说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与[图纸索引](docs/REFERENCES.md)。
 
 欢迎通过 Issue 反馈文件缺失、打开问题、图纸对应问题或文档错误。提交模型修改前，请先阅读[协作说明](CONTRIBUTING.md)。
-
