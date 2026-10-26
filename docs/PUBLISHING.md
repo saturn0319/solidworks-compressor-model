@@ -12,17 +12,19 @@
 
 可直接复制到 GitHub 的 Description：
 
-> 基于 2024 年河南省工业软件创新大赛图纸的 SolidWorks 压缩机建模项目，包含 34 个零件文件、78 个装配组件实例、真实模型预览及使用文档，展示机械识图、三维建模与装配实践。
+> 基于 2024 年河南省工业软件创新大赛图纸的 SolidWorks 压缩机建模项目，包含 35 个零件文件、79 个装配组件实例、真实模型预览及使用文档，展示机械识图、三维建模与装配实践。
 
 英文简介：
 
-> SolidWorks compressor CAD project based on the 2024 Henan Industrial Software Innovation Competition drawings, with 34 part files, 78 component instances, model previews, and documentation.
+> SolidWorks compressor CAD project based on the 2024 Henan Industrial Software Innovation Competition drawings, with 35 part files, 79 component instances, model previews, and documentation.
 
 建议 Topics：`solidworks`、`cad`、`3d-modeling`、`mechanical-design`、`compressor`、`assembly`、`engineering`。
 
 ## 当前打包方式
 
 完整目录保留原文件名，模型直接放在根目录。`dist/solidworks-compressor-model.zip` 是本次整理的上传副本，ZIP 内只有应发布的项目文件，不包含临时检查脚本、历史绝对路径日志或本地缓存。
+
+2026-10-26 更新增加了平键依赖 `plain parallel keys.sldprt`，并使用作者补入平键后的装配体。首版的 28 个初始零件与 6 个补齐依赖，加上本次 1 个平键文件，合计 35 个零件文件、79 个装配组件实例。
 
 向 GitHub 上传时应将 ZIP **解压后的内容**作为仓库文件，保留 `.github`、`.gitignore` 和 `.gitattributes`。ZIP 本身可另外作为 Release 附件。
 
@@ -56,4 +58,4 @@ git push -u origin main
 
 原创内容按作者选择保留全部权利。图纸及标准件的权利说明已列在 [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)，其公开再分发授权尚未核实；在确认适用条款前，可先使用私有仓库归档。
 
-上传后确认 README 图片、中文链接、全部 34 个零件和 GitHub Actions 文件检查正常。若后续调整任何模型，更新清单和检查记录；当前 ZIP 是整理时点的快照，修改后需重新打包。
+上传后确认 README 图片、中文链接、全部 35 个零件和 GitHub Actions 文件检查正常。若后续调整任何模型，更新清单和检查记录；当前 ZIP 是整理时点的快照，修改后需重新打包。

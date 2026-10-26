@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-22",
+  "snapshot_date": "2026-10-26",
   "timezone": "Asia/Shanghai",
   "primary_assembly": "装配体1.SLDASM",
   "configuration": "默认",
@@ -10,16 +10,17 @@
     "api_revision": "28.1.0"
   },
   "expected_counts": {
-    "part_files": 34,
+    "part_files": 35,
     "assembly_files": 1,
     "reference_pdfs": 1,
-    "component_instances": 78
+    "component_instances": 79
   },
   "assembly_dependencies": [
     "hexagon head bolts gb.sldprt",
     "hexagon nuts grade c gb.sldprt",
     "hexagon socket head cap screws gb.sldprt",
     "parallel pins unhardening steel gb.sldprt",
+    "plain parallel keys.sldprt",
     "plain washers-n series-grade a gb.sldprt",
     "冷却器.SLDPRT",
     "出气盖.SLDPRT",
@@ -267,8 +268,8 @@
       "path": "装配体1.SLDASM",
       "kind": "assembly",
       "provenance": "initial_workspace",
-      "size_bytes": 2367300,
-      "sha256": "a11c6b23728763cb791ef8ed305b1c989f23bd37e119be693028b2dbc11dd5ef"
+      "size_bytes": 2555918,
+      "sha256": "432a3360acc54a5a2e88fa358c45400af8251f79183f4cb8af04ce66c74ae1f1"
     },
     {
       "path": "转销.SLDPRT",
@@ -364,8 +365,17 @@
       "path": "docs/images/assembly-isometric.png",
       "kind": "preview",
       "provenance": "generated_from_assembly",
-      "size_bytes": 883156,
-      "sha256": "4f9a12c56ddc890fc578ec200bb065d1e778155d388a7beb359130e5e9ebdf42"
+      "size_bytes": 883545,
+      "sha256": "081438018f61fc0461ba705b6c7832d518962634c32266b048cdcbdcdeb1f9e0"
+    },
+    {
+      "path": "plain parallel keys.sldprt",
+      "kind": "part",
+      "provenance": "recovered_assembly_dependency",
+      "drawing_item": 6,
+      "drawing_page": 1,
+      "size_bytes": 123824,
+      "sha256": "4d3d215656783bbbb6c0c8ac2112f0cca1178fa5cb0e5947839340c1f01c665e"
     }
   ]
 }

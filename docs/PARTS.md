@@ -7,10 +7,11 @@
 | 项目 | 数量 |
 | --- | --- |
 | 初始工作区零件文件 | 28 |
-| 补齐的原装配依赖文件 | 6 |
-| 当前零件文件合计 | 34 |
+| 首版补齐的原装配依赖文件 | 6 |
+| 本次补齐的平键文件 | 1 |
+| 当前零件文件合计 | 35 |
 | 装配体 | 1 |
-| 默认配置组件实例 | 78 |
+| 默认配置组件实例 | 79 |
 
 一个标准件文件可以提供多个配置，一个零件可以被插入多次，因此不能用文件数量推算图纸明细表条数或装配实例数量。
 
@@ -51,7 +52,7 @@
 
 ## 补齐的标准件依赖
 
-下面 6 个文件原来由装配体从工作区外引用，本次从本机原位置复制到根目录；没有重新创建近似替代件。文件数量不等于实例数量。
+当前共补齐 7 个标准件依赖：首版恢复 6 个，本次（2026-10-26）根据作者更新后的装配体再恢复 1 个平键文件。均从本机原引用位置复制，保留原文件名。文件数量不等于实例数量。
 
 | 文件 | 实际实例数 |
 | --- | --- |
@@ -61,6 +62,7 @@
 | [parallel pins unhardening steel gb.sldprt](../parallel%20pins%20unhardening%20steel%20gb.sldprt) | 3 |
 | [plain washers-n series-grade a gb.sldprt](../plain%20washers-n%20series-grade%20a%20gb.sldprt) | 2 |
 | [挡圈.SLDPRT](../%E6%8C%A1%E5%9C%88.SLDPRT) | 1 |
+| [plain parallel keys.sldprt](../plain%20parallel%20keys.sldprt) | 1 |
 
 标准件来源与权利说明见 [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)。
 
@@ -80,8 +82,11 @@
 | `parallel pins unhardening steel gb.sldprt` | `GB_CONNECTING_PIECE_PIN_PPUS 3X18` | 2 |
 | `plain washers-n series-grade a gb.sldprt` | `GB_FASTENER_WASHER_PWNA 8` | 2 |
 | `挡圈.SLDPRT` | `GB_CONNECTING_PIECE_RINGS_RSRS 10` | 1 |
+| `plain parallel keys.sldprt` | `GB_CONNECTING_PIECE_KEYS_CSK 3X25` | 1 |
 
 例如，当前装配中的内六角螺钉配置包括 M8×12、M8×20 和 M8×25；图纸明细表还需另行核对，不能把这一实际配置表当作制造用 BOM。
+
+本次新增的平键对应图纸第 1 页明细表序号 6；装配实例为 `plain parallel keys-1`，实际引用配置为 `GB_CONNECTING_PIECE_KEYS_CSK 3X25`。新版装配相较首版仅新增这一组件实例，原 78 个实例均保留。
 
 逐实例明细可查看 [assembly-components.csv](assembly-components.csv)，包括实例名称、文件、引用配置和读取时的解析状态。
 
@@ -93,6 +98,6 @@
 | 传动与往复运动 | 带轮、曲轴、拨叉、转销、活塞 |
 | 进排气与控制 | 进气盖、出气盖、阀板、阀盖、控制杆、气管接头、气路卡套 |
 | 支承、封闭与密封 | 轴套、轴塞、顶盖、密封圈、各类垫片 |
-| 连接与紧固 | 锁紧套、锁紧螺钉、标准螺钉/螺栓/螺母/销/垫圈/挡圈 |
+| 连接与紧固 | 锁紧套、锁紧螺钉、标准螺钉/螺栓/螺母/销/垫圈/挡圈/平键 |
 
 此分类仅帮助定位现有文件，不替代装配图中的结构定义。
